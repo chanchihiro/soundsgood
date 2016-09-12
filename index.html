@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <title>Sounds good!</title>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="jquery-1.12.4.min.js"></script>
+    <script src="sample.js"></script>
+</head>
+<body>
+    <div class="start" id="start">
+		<div class="kaishi">
+			<h1 id="ichi">Soundsgood!</h1>
+			<p id="ni">Soundsgoodとは</p>
+			<p id="san">好きな音楽の共有を楽しむため</p>
+			<p id="si">開発されたアプリです</p>
+			<p id="go">すぐに目当ての楽曲を再生できるため</p>
+			<p id="roku">ストレスフリーな音楽共有を</p>
+			<p id="nana">実現しています</p>
+			<p id="hachi">好きな音楽/アーティストを入力して</p>
+			<p id="kyuu">お楽しみください</p>
+			<button type="button" value="" id="ju">ENTER</button>
+		</div>
+	</div>
+    <div class="container">
+		<div class="inner">
+			<h1>SoundsGood!</h1>
+			<form id="frmSearch">
+				<input type="text" id="keyword" value="" placeholder="曲または歌手の入力">
+				<button type="button" id="search" value="検索">検索</button>
+				<button type="button" id="clear" value="クリア">クリア</button>
+			</form>
+		</div>
+		<main id="shu">
+			<div id="load">
+			</div>
+		</main>
+		<button type="" class="loadmore" id="loadmore">LOAD MORE</button>
+	</div>
+</body>
+</html>
