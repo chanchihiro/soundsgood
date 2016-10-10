@@ -8,9 +8,7 @@ $(document).ready(function(){
 			},1200);
 		}
 		$("#ju").on("click",function(){
-			$("#start").css({
-				"display":"none"
-			});
+			$("#start").fadeOut(2000);
 		});
 
 
@@ -59,7 +57,7 @@ $(document).ready(function(){
 											"<div id='"+"right"+"'>"+"<h1>"+item.collectionName+"</h1>"+
 									"<p>"+item.artistName+"</p>"+
 									"<ul>"+"<li><a href='"+item.collectionViewUrl+"'>"+"リンク"+"</a></li>"+
-									"<li><a href='"+item.trackViewUrl+"'>"+"つい"+"</a></li>"+"</ul>"+"</div>"+
+									"</ul>"+"</div>"+
 											"<div id='"+"bottom"+"'>"+"<audio src='"+item.previewUrl+"' controls></audio>"+"</div>"+
 										"</div>");
 						$("#image")
